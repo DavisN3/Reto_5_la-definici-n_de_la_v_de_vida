@@ -48,5 +48,50 @@ Las actividades listadas de los ejercicios 1 al 5 se encuentra en los archivos a
 	</tr>
 </table>
 
+- Comandos básicos:
+
+<table cellspacing="1" bgcolor="">
+	<tr bgcolor="#252582">
+		<th><b>Comando</b></th>
+		<th><b>Definición</b></th>
+	</tr>
+	<tr bgcolor="#e4e4ed">
+		<td style="color:#141414"><b>`python <archivo>.py`</b></td>
+		<td style="color:#141414">Ejecuta un script de Python desde la terminal o línea de comandos.</td>
+	</tr>
+	<tr bgcolor="#e4e4ed">
+		<td style="color:#141414"><b>`python -m venv <nombre_entorno>`</b></td>
+		<td style="color:#141414">Crea un entorno virtual en Python para aislar las dependencias del proyecto.</td>
+	</tr>
+	<tr bgcolor="#e4e4ed">
+		<td style="color:#141414"><b>`pip install <paquete>`</b></td>
+		<td style="color:#141414">Instala un paquete desde el Python Package Index (PyPI).</td>
+	</tr>
+	<tr bgcolor="#e4e4ed">
+		<td style="color:#141414"><b>`python -m pip install --upgrade pip`</b></td>
+		<td style="color:#141414">Actualiza `pip` a la última versión disponible.</td>
+	</tr>
+	<tr bgcolor="#e4e4ed">
+		<td style="color:#141414"><b>`python --version`</b></td>
+		<td style="color:#141414">Muestra la versión actual de Python instalada en tu sistema.</td>
+	</tr>
+	<tr bgcolor="#e4e4ed">
+		<td style="color:#141414"><b>`python -m http.server`</b></td>
+		<td style="color:#141414">Inicia un servidor web básico en el directorio actual (útil para pruebas locales).</td>
+	</tr>
+	<tr bgcolor="#e4e4ed">
+		<td style="color:#141414"><b>`python -c "<código>"`</b></td>
+		<td style="color:#141414">Ejecuta un fragmento de código Python directamente desde la terminal.</td>
+	</tr>
+	<tr bgcolor="#e4e4ed">
+		<td style="color:#141414"><b>`python -m pip freeze`</b></td>
+		<td style="color:#141414">Genera una lista de los paquetes instalados y sus versiones en el entorno actual.</td>
+	</tr>
+	<tr bgcolor="#e4e4ed">
+		<td style="color:#141414"><b>`python -m pip show <paquete>`</b></td>
+		<td style="color:#141414">Muestra detalles sobre un paquete instalado, como su ubicación y versión.</td>
+	</tr>
+</table>
+
 
 ## Listado de módulos populares para python que se pueden instalar con "pip" y la ruta sobre como instalarlo.
