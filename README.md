@@ -56,42 +56,39 @@ Las actividades listadas de los ejercicios 1 al 5 se encuentra en los archivos a
 		<th><b>Definición</b></th>
 	</tr>
 	<tr bgcolor="#e4e4ed">
-		<td style="color:#141414"><b>`python <archivo>.py`</b></td>
-		<td style="color:#141414">Ejecuta un script de Python desde la terminal o línea de comandos.</td>
+		<td style="color:#141414"><b>`pip install <paquete> --user`</b></td>
+		<td style="color:#141414">Instala el paquete solo para el usuario actual, sin necesidad de permisos de administrador.</td>
 	</tr>
 	<tr bgcolor="#e4e4ed">
-		<td style="color:#141414"><b>`python -m venv <nombre_entorno>`</b></td>
-		<td style="color:#141414">Crea un entorno virtual en Python para aislar las dependencias del proyecto.</td>
+		<td style="color:#141414"><b>`pip install <paquete>==<versión>`</b></td>
+		<td style="color:#141414">Instala una versión específica de un paquete.</td>
 	</tr>
 	<tr bgcolor="#e4e4ed">
-		<td style="color:#141414"><b>`pip install <paquete>`</b></td>
-		<td style="color:#141414">Instala un paquete desde el Python Package Index (PyPI).</td>
+		<td style="color:#141414"><b>`pip install --no-cache-dir <paquete>`</b></td>
+		<td style="color:#141414">Instala el paquete sin usar el caché, descargando una versión fresca desde PyPI.</td>
 	</tr>
 	<tr bgcolor="#e4e4ed">
-		<td style="color:#141414"><b>`python -m pip install --upgrade pip`</b></td>
-		<td style="color:#141414">Actualiza `pip` a la última versión disponible.</td>
+		<td style="color:#141414"><b>`pip check`</b></td>
+		<td style="color:#141414">Verifica si hay dependencias rotas o paquetes que falten en el entorno.</td>
 	</tr>
 	<tr bgcolor="#e4e4ed">
-		<td style="color:#141414"><b>`python --version`</b></td>
-		<td style="color:#141414">Muestra la versión actual de Python instalada en tu sistema.</td>
+		<td style="color:#141414"><b>`pip search <término>`</b></td>
+		<td style="color:#141414">Busca paquetes relacionados con el término dado en PyPI. (Este comando ha sido descontinuado en versiones recientes de `pip`).</td>
 	</tr>
 	<tr bgcolor="#e4e4ed">
-		<td style="color:#141414"><b>`python -m http.server`</b></td>
-		<td style="color:#141414">Inicia un servidor web básico en el directorio actual (útil para pruebas locales).</td>
+		<td style="color:#141414"><b>`pip wheel <paquete>`</b></td>
+		<td style="color:#141414">Genera un archivo de distribución del paquete en formato `.whl` (rueda), que se puede instalar sin requerir la compilación del paquete.</td>
 	</tr>
 	<tr bgcolor="#e4e4ed">
-		<td style="color:#141414"><b>`python -c "<código>"`</b></td>
-		<td style="color:#141414">Ejecuta un fragmento de código Python directamente desde la terminal.</td>
+		<td style="color:#141414"><b>`pip uninstall <paquete> -y`</b></td>
+		<td style="color:#141414">Desinstala un paquete sin pedir confirmación.</td>
 	</tr>
 	<tr bgcolor="#e4e4ed">
-		<td style="color:#141414"><b>`python -m pip freeze`</b></td>
-		<td style="color:#141414">Genera una lista de los paquetes instalados y sus versiones en el entorno actual.</td>
-	</tr>
-	<tr bgcolor="#e4e4ed">
-		<td style="color:#141414"><b>`python -m pip show <paquete>`</b></td>
-		<td style="color:#141414">Muestra detalles sobre un paquete instalado, como su ubicación y versión.</td>
+		<td style="color:#141414"><b>`pip show <paquete> --files`</b></td>
+		<td style="color:#141414">Muestra una lista de archivos instalados por un paquete en particular.</td>
 	</tr>
 </table>
+
 
 
 ## Listado de módulos populares para python que se pueden instalar con "pip" y la ruta sobre como instalarlo.
