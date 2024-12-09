@@ -7,7 +7,7 @@ Las actividades listadas de los ejercicios 1 al 5 se encuentra en los archivos a
 
 ## ¿Qué es y cómo funciona "pip" en phyton?
 - "pip" es un sistema de gestión de paquetes para tener control sobre los paquetes de software escrito para Python, con este sistema tenemos la capacidad de: actualizar, instalar, administrar u eliminar bibliotecas o modulos que no se encuentran incluidos en la instalación básica de Python.
-- "pip" tiene varias funciones, dependiendo del tipo de comando con el que se junte:
+- "pip" tiene varias funciones, algunos de los comandos más comunes y su función son:
 
 <table cellspacing="1" bgcolor="">
 	<tr bgcolor="#252582">
@@ -47,48 +47,5 @@ Las actividades listadas de los ejercicios 1 al 5 se encuentra en los archivos a
 		<td style="color:#141414">Instala todos los paquetes listados en un archivo `requirements.txt`.</td>
 	</tr>
 </table>
-
-- Comandos básicos:
-
-<table cellspacing="1" bgcolor="">
-	<tr bgcolor="#252582">
-		<th><b>Comando</b></th>
-		<th><b>Definición</b></th>
-	</tr>
-	<tr bgcolor="#e4e4ed">
-		<td style="color:#141414"><b>`pip install <paquete> --user`</b></td>
-		<td style="color:#141414">Instala el paquete solo para el usuario actual, sin necesidad de permisos de administrador.</td>
-	</tr>
-	<tr bgcolor="#e4e4ed">
-		<td style="color:#141414"><b>`pip install <paquete>==<versión>`</b></td>
-		<td style="color:#141414">Instala una versión específica de un paquete.</td>
-	</tr>
-	<tr bgcolor="#e4e4ed">
-		<td style="color:#141414"><b>`pip install --no-cache-dir <paquete>`</b></td>
-		<td style="color:#141414">Instala el paquete sin usar el caché, descargando una versión fresca desde PyPI.</td>
-	</tr>
-	<tr bgcolor="#e4e4ed">
-		<td style="color:#141414"><b>`pip check`</b></td>
-		<td style="color:#141414">Verifica si hay dependencias rotas o paquetes que falten en el entorno.</td>
-	</tr>
-	<tr bgcolor="#e4e4ed">
-		<td style="color:#141414"><b>`pip search <término>`</b></td>
-		<td style="color:#141414">Busca paquetes relacionados con el término dado en PyPI. (Este comando ha sido descontinuado en versiones recientes de `pip`).</td>
-	</tr>
-	<tr bgcolor="#e4e4ed">
-		<td style="color:#141414"><b>`pip wheel <paquete>`</b></td>
-		<td style="color:#141414">Genera un archivo de distribución del paquete en formato `.whl` (rueda), que se puede instalar sin requerir la compilación del paquete.</td>
-	</tr>
-	<tr bgcolor="#e4e4ed">
-		<td style="color:#141414"><b>`pip uninstall <paquete> -y`</b></td>
-		<td style="color:#141414">Desinstala un paquete sin pedir confirmación.</td>
-	</tr>
-	<tr bgcolor="#e4e4ed">
-		<td style="color:#141414"><b>`pip show <paquete> --files`</b></td>
-		<td style="color:#141414">Muestra una lista de archivos instalados por un paquete en particular.</td>
-	</tr>
-</table>
-
-
 
 ## Listado de módulos populares para python que se pueden instalar con "pip" y la ruta sobre como instalarlo.
