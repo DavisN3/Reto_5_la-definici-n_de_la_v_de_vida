@@ -7,7 +7,7 @@ Las actividades listadas de los ejercicios 1 al 5 se encuentra en los archivos a
 
 ## ¿Qué es y cómo funciona "pip" en phyton?
 - "pip" es un sistema de gestión de paquetes para tener control sobre los paquetes de software escrito para Python, con este sistema tenemos la capacidad de: actualizar, instalar, administrar u eliminar bibliotecas o modulos que no se encuentran incluidos en la instalación básica de Python.
-- Pip tiene varias funciones, dependiendo del tipo de comando que se emplee:
+- "pip" tiene varias funciones, dependiendo del tipo de comando con el que se junte:
 
 <table cellspacing="1" bgcolor="">
 	<tr bgcolor="#252582">
