@@ -49,3 +49,5 @@ Las actividades listadas de los ejercicios 1 al 5 se encuentra en los archivos a
 </table>
 
 ## Listado de módulos populares para python que se pueden instalar con "pip" y la ruta sobre como instalarlo.
+
+### ¿Cómo instalar un programa con la ruta "pip"?
